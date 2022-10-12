@@ -12,6 +12,7 @@ ro.sys.fw.dex2oat_thread_count=8
 debug.gralloc.gfx_ubwc_disable=0
 debug.sf.enable_hwc_vds=0
 media.wfd.max_resolution=8
+debug.sf.auto_latch_unsignaled=true
 persist.vendor.color.matrix=2
 debug.force_no_blanking=true
 
