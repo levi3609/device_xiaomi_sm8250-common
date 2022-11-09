@@ -56,6 +56,11 @@ on early-init
 
     chown root system /dev/kmsg
     chmod 0620 /dev/kmsg
+ 
+    # Workarround for cache
+    rm /data/resource-cache
+    rm /data/system/package_cache 
+
     # Load WIGIG platform driver
     # exec u:r:vendor_modprobe:s0 -- /vendor/bin/modprobe -a -d /vendor/lib/modules msm_11ad_proxy
 
